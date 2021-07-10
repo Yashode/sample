@@ -51,11 +51,11 @@ function App(){
 
     <Col md="auto">
       <NavDropdown className="btn-dropDown" title=<i class="fas fa-cog"></i> id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Best Deals</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Offers</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Sales</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.1">Profile</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Support</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Mode</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">New Arrivals</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4"></NavDropdown.Item>
       </NavDropdown>
     </Col>
 
