@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.bg{
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+    margin-top: 10px;
+    height:50px ;
+    background-color: #E9F1F3;
+    opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-aboutUs {
+/*  margin-left: 10px;*/
+  margin-top: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-home {
+  margin-left: 20px;
+  margin-top: 12px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-dropDown {
+/*  margin-left: 10px;*/
+  margin-top: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-sell{
+/*  margin-left: 800px;*/
+}       
+.btn-circle{
+  background-color: #F46855;
+  position: relative;
+  min-width: 80px;
+  margin-top: 5px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  border: solid #F46855;
+  border-radius: 6px;
+}
+
+.search-bar{
+
+  margin-top: 120px;
+ /* margin-left: 500px*/;
+}
+
+.input{
+  position: relative;
+  min-width: 400px;
+  opacity: 0.8;
+}
+
+.btn-ddwn{
+  background-color: #F46855;
+  border: solid #F46855;
+
 }
